@@ -18,6 +18,7 @@ header nav {
   max-width: 1264px;
   height: var(--nav-height);
   padding: 0 1rem;
+  color: #000383;
   font-family: var(--body-font-family);
   background-color: #ffd100;
 }
@@ -41,7 +42,7 @@ header nav[aria-expanded="true"] {
   header nav {
     display: flex;
     justify-content: space-between;
-    a
+    
   }
 
   header nav[aria-expanded="true"] {
@@ -150,7 +151,7 @@ header .nav-brand {
 }
 
 header nav .nav-brand img {
-  width: 200px;
+  width: 150px;
   height: auto;
 }
 
