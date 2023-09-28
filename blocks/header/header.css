@@ -21,6 +21,7 @@ header nav {
   color: #000383;
   font-family: var(--body-font-family);
   background-color: #ffd100;
+  border-radius: 20px;
 }
 
 header nav[aria-expanded="true"] {
